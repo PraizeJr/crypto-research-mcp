@@ -2,7 +2,6 @@ import requests
 
 BASE_URL = "https://api.llama.fi"
 
-
 def get_top_protocols_by_tvl(limit=10):
     response = requests.get(
         f"{BASE_URL}/protocols"
